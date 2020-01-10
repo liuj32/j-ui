@@ -1,0 +1,9 @@
+{
+  "aside": "./src/components/aside",
+  "col": "./src/components/col",
+  "container": "./src/components/container",
+  "footer": "./src/components/footer",
+  "header": "./src/components/header",
+  "main": "./src/components/main",
+  "row": "./src/components/row"
+}
