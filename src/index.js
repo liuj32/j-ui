@@ -7,6 +7,7 @@ import Footer from './components/footer/index.js';
 import Header from './components/header/index.js';
 import Main from './components/main/index.js';
 import Row from './components/row/index.js';
+// import CollapseTransition from 'element-ui/src/transitions/collapse-transition';
 
 const components = [
   Aside,
@@ -19,6 +20,7 @@ const components = [
 ];
 
 const install = function(Vue, opts = {}) {
+
   components.forEach(component => {
     Vue.component(component.name, component);
   });

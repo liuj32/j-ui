@@ -21,6 +21,7 @@
         } else if (this.direction === 'horizontal') {
           return false;
         }
+        console.log(this.$slots)
         return this.$slots && this.$slots.default
           ? this.$slots.default.some(vnode => {
             const tag = vnode.componentOptions && vnode.componentOptions.tag;
