@@ -1,21 +1,20 @@
 <template>
-  <el-radio-group v-model="radio">
-    <el-radio :label="3">备选项</el-radio>
-    <el-radio :label="6">备选项</el-radio>
-    <el-radio :label="9">备选项</el-radio>
-  </el-radio-group>
+  <div>
+    <el-radio v-model="radio" label="1"></el-radio>
+    <el-radio v-model="radio" label="2"></el-radio>
+  </div>
 </template>
 
 <script>
   export default {
     data() {
       return {
-        radio: '3'
+        radio: '1'
       };
     },
     watch: {
       radio(newVal, oldVal) {
-        console.log(newVal)
+        // console.log(newVal)
       }
     },
   };

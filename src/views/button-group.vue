@@ -1,23 +1,19 @@
 <template>
-  <el-radio-group v-model="radio">
-    <el-radio :label="3">备选项</el-radio>
-    <el-radio :label="6">备选项</el-radio>
-    <el-radio :label="9">备选项</el-radio>
-  </el-radio-group>
+  <div>
+    <el-button-group>
+      <el-button type="primary" icon="el-icon-arrow-left">上一页</el-button>
+      <el-button type="primary">下一页<i class="el-icon-arrow-right el-icon--right"></i></el-button>
+    </el-button-group>
+  </div>
 </template>
 
 <script>
   export default {
     data() {
       return {
-        radio: '3'
+        input: 'Hello Element UI!'
       };
-    },
-    watch: {
-      radio(newVal, oldVal) {
-        console.log(newVal)
-      }
-    },
+    }
   };
 </script>
 

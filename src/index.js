@@ -7,6 +7,11 @@ import Footer from './components/footer/index.js';
 import Header from './components/header/index.js';
 import Main from './components/main/index.js';
 import Row from './components/row/index.js';
+import Button from './components/button/index.js';
+import ButtonGroup from './components/button-group/index.js';
+import Link from './components/link/index.js';
+import Radio from './components/radio/index.js';
+import RadioGroup from './components/radio-group/index.js';
 // import CollapseTransition from 'element-ui/src/transitions/collapse-transition';
 
 const components = [
@@ -16,7 +21,14 @@ const components = [
   Footer,
   Header,
   Main,
-  Row
+  Row,
+  Button,
+  ButtonGroup,
+  Link,
+  Radio,
+  RadioGroup,
+
+
 ];
 
 const install = function(Vue, opts = {}) {
@@ -55,5 +67,11 @@ export default {
   Footer,
   Header,
   Main,
-  Row
+  Row,
+  Button,
+  ButtonGroup,
+  Link,
+  Radio,
+  RadioGroup
+  
 };
